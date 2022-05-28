@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MathForKids">
         <activity
+            android:name=".ComparisonsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TasksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExamplesActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

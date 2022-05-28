@@ -30,13 +30,15 @@ public class MainActivity extends AppCompatActivity {
         startButton = findViewById(R.id.startButton);
 
         startButton.setOnClickListener(v -> {
-            /*
-            boolean checked = ((CheckBox) startButton).isChecked();
+
+            if(((CheckBox) examplesCheckBox).isChecked()){
+
+            }
 
 
-            Intent intent = new Intent(class);
+            Intent intent = new Intent();//class
 
-             */
+
         });
     }
 
